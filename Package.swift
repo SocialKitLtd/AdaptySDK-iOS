@@ -4,8 +4,8 @@ import PackageDescription
 let package = Package(
     name: "Adapty",
     platforms: [
-        .iOS(.v9),
-        .macOS(SupportedPlatform.MacOSVersion.v10_12)
+        .iOS(.v12)
+        
     ],
     products: [
         .library(
